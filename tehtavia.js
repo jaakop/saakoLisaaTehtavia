@@ -1,4 +1,5 @@
-const text = "ANNA LISÄÄ TEHTÄVIÄ"
+
 function lisaaTehtavia(){
-    document.getElementById("lisaa").innerHTML = text;
+    document.getElementById("lisaa").style.opacity = 1;
+    setInterval(function(){ document.getElementById("lisaa").style.opacity = 0; }, 2000);
 }
