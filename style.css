@@ -81,3 +81,7 @@ body{
       font-size: 4em;
     }
   }
+
+  marquee {
+      padding: 30px
+  }
