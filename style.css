@@ -14,4 +14,18 @@ body{
     background-color: hotpink;
     font-size: 30px;
     font-family: Indie Flower;
+
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    box-shadow: 0 9px rgb(143, 143, 143);
 }
+#button:active {
+    background-color: rgb(255, 50, 152);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
