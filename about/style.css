@@ -16,7 +16,7 @@ text-align: center;
 }
 
 .profilePic{
-    height: 50%;
+    height: 300px;
     border: 10px solid white;
     border-radius: 50%;
 }
