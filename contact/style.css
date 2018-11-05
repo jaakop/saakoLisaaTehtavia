@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
+<<<<<<< HEAD
 
 html,body
 {
@@ -9,6 +10,13 @@ html,body
     overflow-x: hidden; 
 }
 
+=======
+body{
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+}
+>>>>>>> aa79a8a7a6a1669017d00d1bff7b3b580095514d
 h1   {
     font-family: Indie Flower;
     text-align: center;
@@ -67,16 +75,9 @@ iframe {
 }
 
 .flexbox {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    justify-content: space-between;
-    padding-right: 25px; padding-left: 25px;
-    flex-wrap: nowrap;
-}
-
-@media screen and (max-width: 700px){
-    iframe{
-        height: 650px; width: 300px;
-    }
+    text-align: center;
+    display: inline-block;
+}.flexbox div{
+    display: inline-block;
+    padding: 25px;
 }
