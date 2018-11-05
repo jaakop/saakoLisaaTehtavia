@@ -5,6 +5,9 @@
 
 .dc {
     float: right;
+    margin: 5px;
+    position: sticky;
+    top: 5px;
 }
 
 .logo {
@@ -48,4 +51,7 @@ li a {
 
 #myBtn:hover {
     background-color: #555;
+}
+.login {
+    color: white;
 }
