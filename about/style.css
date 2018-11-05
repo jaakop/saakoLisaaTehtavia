@@ -54,7 +54,7 @@ li{
     .profilePic{
         height: 150px;
         border-width: 5px;
-    }
+}
 }@media screen and (max-width: 500px){
     .profilePic{
         height: 75px;
