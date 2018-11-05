@@ -90,7 +90,7 @@ iframe {
       .flexbox{
           display: block;
           text-align: center;
-          max-width: 300px;
+          max-width:320px;
       }
       .flexbox div{
         display: inline-block;
