@@ -82,6 +82,22 @@ iframe {
         padding-bottom: 0px;
         padding-top: 0px;
     }
+    
+}
+@media screen and (max-width: 450px){
+    .socialdivs {
+        margin: 0px;
+       
+      }
+      .flexbox{
+          display: block;
+          text-align: center;
+          max-width:420px;
+      }
+      .flexbox div{
+        display: inline-block;
+        padding-bottom: 0px;
+        padding-top: 0px;
 }@media screen and (max-width: 350px){
     .socialdivs {
         margin: 0px;
