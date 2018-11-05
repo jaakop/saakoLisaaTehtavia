@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
+body{
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+}
 h1   {
     font-family: Indie Flower;
     text-align: center;
@@ -58,11 +63,9 @@ iframe {
 }
 
 .flexbox {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    flex-shrink: 1;
-    justify-content: space-between;
-    padding-right: 50px; padding-left: 50px;
-    flex-basis: 400px;
+    text-align: center;
+    display: inline-block;
+}.flexbox div{
+    display: inline-block;
+    padding: 25px;
 }
