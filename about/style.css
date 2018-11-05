@@ -6,6 +6,11 @@ header{
     text-align: center;
     color: white;
 }
+.logoLink{
+    position: fixed;
+    top: 8px;
+    left: 16px;
+}
 footer{
 text-align: center;
 }
