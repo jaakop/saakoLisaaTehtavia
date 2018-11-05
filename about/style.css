@@ -3,6 +3,7 @@ header,body,footer{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    background-color: rgb(240, 240, 240)
 }body h1{
     font-size: 40px;
 }body h2{
