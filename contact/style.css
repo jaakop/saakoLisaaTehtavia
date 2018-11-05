@@ -1,22 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
-<<<<<<< HEAD
-
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
-=======
 body{
     padding: 0px;
     margin:0px;
     text-align: center;
 }
->>>>>>> aa79a8a7a6a1669017d00d1bff7b3b580095514d
 h1   {
     font-family: Indie Flower;
     text-align: center;
