@@ -50,7 +50,7 @@ link {
 }
 
 iframe {
-    display: block;
+    display: flex;
     margin: 0 auto;
     border: 0;
 }
@@ -59,7 +59,6 @@ iframe {
   margin-top: 50px;
  font-size: 20px;
  height: 300px;
- 
 }
 
 .flexbox {
