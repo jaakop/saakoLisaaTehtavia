@@ -1,10 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
 header,body,footer{
     margin: 0px;
     padding: 0px;
     text-align: center;
-}
-header{
-    color: white;
 }body h1{
     font-size: 40px;
 }body h2{
@@ -30,7 +28,7 @@ text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px; 
+    height: 541px; 
     padding: 0px;
     margin: 0px;
 }
