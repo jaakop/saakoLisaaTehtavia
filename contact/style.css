@@ -97,9 +97,12 @@ iframe {
         padding-bottom: 0px;
         padding-top: 0px;
     }
-}}
+}
 
 @media screen and (max-width: 450px) {.forms {
         display: none;
     }
+}
+header {
+    background: rgb(82, 82, 82);
 }
