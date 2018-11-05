@@ -105,4 +105,7 @@ iframe {
 }
 header {
     background: rgb(82, 82, 82);
+    margin-top: -41px;
+    height: 100px;
+    line-height: 100px;
 }
