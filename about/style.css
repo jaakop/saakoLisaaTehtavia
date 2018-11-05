@@ -14,3 +14,13 @@ text-align: center;
     padding: -20px;
     margin: 20px;
 }
+.hero{
+    background-image: url("../Media/old-board.jpg");    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+    padding: 0px;
+    margin: 0px;
+}
