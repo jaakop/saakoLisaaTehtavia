@@ -99,7 +99,8 @@ iframe {
     }
 }
 
-@media screen and (max-width: 450px) {.forms {
+@media screen and (max-width: 450px) {
+    .forms {
         display: none;
     }
 }
