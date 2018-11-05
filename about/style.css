@@ -45,3 +45,19 @@ li{
     display: inline-block;   
     padding: -20px;
 }
+@media screen and (max-width: 950px){
+    .profilePic{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 650px){
+    .profilePic{
+        height: 150px;
+        border-width: 5px;
+    }
+}@media screen and (max-width: 500px){
+    .profilePic{
+        height: 75px;
+        border-width: 5px;
+    }
+}
