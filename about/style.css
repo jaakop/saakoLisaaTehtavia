@@ -1,3 +1,7 @@
+header,body,footer{
+    margin: 0px;
+    padding: 0px;
+}
 header{
     text-align: center;
     color: white;
@@ -10,10 +14,6 @@ text-align: center;
     height: 50%;
     border: 10px solid white;
     border-radius: 50%;
-    padding: -20px;
-    margin: -20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 .hero{
     background-image: url("../Media/old-board.jpg");    
@@ -25,7 +25,15 @@ text-align: center;
     padding: 0px;
     margin: 0px;
 }
+.profileBackground{
+background-color: white;
+border-radius: 50%;
+}
 li{
+    padding: -20px;
+    margin: -20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     display: inline-block;   
     padding: -20px;
 }
