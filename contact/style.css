@@ -37,5 +37,32 @@ link {
 }
 
 .sivulinkit {
+    text-decoration: none;
+    color: black;
+    margin: 5px; 
     text-align: center;
+    font-size: 35px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+.socialdivs {
+  margin-top: 50px;
+ font-size: 20px;
+ height: 300px;
+ 
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding-right: 50px; padding-left: 50px;
+    flex-basis: 400px;
 }
