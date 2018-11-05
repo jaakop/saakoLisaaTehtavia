@@ -10,3 +10,32 @@ h1   {
     top: 8px;
     left: 16px;
 }
+
+.socialmedia {
+
+text-decoration: none;
+color: black;
+margin: 5px;
+}
+
+link {
+    color: black;
+}
+.socialmedia {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.links{
+    border: 3px solid rgb(14, 14, 14);
+    border-radius: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+.logo {
+    height: 80px;
+}
+
+.sivulinkit {
+    text-align: center;
+}
