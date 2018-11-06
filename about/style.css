@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
-
 header,body,footer
 {
     margin: 0px;
@@ -77,6 +75,7 @@ li
     padding: -20px;
 }
 
+/*Makes the site responsive to the website width*/
 @media screen and (max-width: 950px)
 {
     .profilePic
