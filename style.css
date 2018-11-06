@@ -8,7 +8,7 @@
 {
     float: right;
     margin: 5px;
-    top: 15px;
+    margin-top: 75px
 }
 
 .logo
@@ -65,14 +65,10 @@ li a
 {
     color: white;
 }
-
-.twitter-timeline {
-    float: right;
-}
-
 section 
 {
     margin-left: 15px;
+    width: 600px;
 }
 
 article 
