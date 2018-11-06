@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
-.helloworld   {
+.helloworld
+{
     font-family: Indie Flower;
 }
 
-.dc {
+.dc
+{
     float: right;
     margin: 5px;
     top: 15px;
 }
 
-.logo {
+.logo
+{
     height: 80px;
 }
 
-ul {
+ul
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,18 +25,22 @@ ul {
     background-color: #333333;
 }
 
-li {
+li
+{
     float: left;
 }
 
-li a {
+li a
+{
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
-#myBtn {
+
+#myBtn 
+{
     display: none;
     position: fixed;
     bottom: 20px;
@@ -48,16 +56,38 @@ li a {
     font-size: 18px;
 }
 
-#myBtn:hover {
+#myBtn:hover 
+{
     background-color: #555;
 }
-.login {
+
+.login 
+{
     color: white;
 }
 
+<<<<<<< HEAD
 section {
+=======
+.twitter-timeline 
+{
+    
+}
+
+section 
+{
+>>>>>>> 2aad9a23f718c0e4887bbf103af263a8bfc87a3e
     margin-left: 15px;
 }
-article {
+
+article 
+{
     margin-left: 20px;
+}
+@media screen and (max-width: 450px)
+{
+    .dc, .twitter-timeline, .player
+    {
+        display: none;
+    }
 }
