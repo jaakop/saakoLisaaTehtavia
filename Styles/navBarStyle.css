@@ -1,24 +1,38 @@
-link {
+/* This is the default stylesheet for the navigation bar and the unicorn button*/
+
+link 
+{
     color: black;
-}a{
+}
+
+a
+{
     font-size: 35px;
     text-decoration: none;
     color: black;
     margin: 5px;
 }
-.links{
+
+.links
+{
     border: 3px solid rgb(14, 14, 14);
     border-radius: 25px;
     padding: 0px;
     margin: 0px;
 }
-.logo {
+
+.logo 
+{
     height: 80px;
 }
-.right {
+
+.right 
+{
     float: right;
 }
-.fa {
+
+.fa 
+{
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -26,6 +40,8 @@ link {
     text-decoration: none;
 
 }
-.fa:hover {
+
+.fa:hover 
+{
     opacity: 0.7;
 }
