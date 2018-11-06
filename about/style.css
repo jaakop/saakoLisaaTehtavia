@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poor+Story" );
+
 header,body,footer
 {
     margin: 0px;
@@ -14,6 +16,12 @@ body h1
 body h2
 {
     font-size: 100px;
+    font-family: 'Poor Story'
+}
+
+body p
+{
+    font-family: 'Poor Story'
 }
 
 .logoLink
