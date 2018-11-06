@@ -66,12 +66,22 @@ li a
     color: white;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+section {
+=======
+.twitter-timeline 
+{
+    
+=======
 .twitter-timeline {
     float: right;
+>>>>>>> 6b2d67aafc2ce81ab0da5932182c413d37389494
 }
 
 section 
 {
+>>>>>>> 2aad9a23f718c0e4887bbf103af263a8bfc87a3e
     margin-left: 15px;
 }
 
