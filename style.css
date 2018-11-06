@@ -83,4 +83,5 @@ article
 }
 .nostyle {
     all: initial;
+    all: none;
 }
