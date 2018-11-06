@@ -23,9 +23,9 @@ h1
 
 .socialmedia
 {
-text-decoration: none;
-color: black;
-margin: 5px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
 }
 
 link
@@ -71,9 +71,8 @@ iframe
 
 .socialdivs
 {
-  margin-top: 50px;
- font-size: 20px;
- 
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .flexbox
@@ -88,6 +87,23 @@ iframe
     padding: 25px;
 }
 
+header
+{
+    background: rgb(82, 82, 82);
+    margin-top: -41px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.-forms
+{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
 @media screen and (max-width: 630px)
 {
     .socialdivs 
@@ -97,9 +113,9 @@ iframe
     }
     .flexbox
     {
-          display: block;
-          text-align: center;
-          max-width: 540px;
+        display: block;
+        text-align: center;
+        max-width: 540px;
     }
     .flexbox div
     {
@@ -136,21 +152,4 @@ iframe
     {
         display: none;
     }
-}
-
-header
-{
-    background: rgb(82, 82, 82);
-    margin-top: -41px;
-    height: 100px;
-    line-height: 100px;
-}
-
-.-forms
-{
-    color: black;
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-    margin: 5px;
 }
