@@ -25,9 +25,9 @@ body h2
     left: 16px;
 }
 
-foote
+footer
 {
-text-align: center;
+    text-align: center;
 }
 
 .profilePic
@@ -51,8 +51,8 @@ text-align: center;
 
 .profileBackground
 {
-background-color: white;
-border-radius: 50%;
+    background-color: white;
+    border-radius: 50%;
 }
 
 li
@@ -67,14 +67,16 @@ li
 
 @media screen and (max-width: 950px)
 {
-    .profilePic{
+    .profilePic
+    {
         height: 200px;
     }
 }
 
 @media screen and (max-width: 650px)
 {
-    .profilePic{
+    .profilePic
+    {
         height: 150px;
         border-width: 5px;
     }
@@ -82,7 +84,8 @@ li
 
 @media screen and (max-width: 500px)
 {
-    .profilePic{
+    .profilePic
+    {
         height: 75px;
         border-width: 5px;
     }

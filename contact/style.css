@@ -7,7 +7,8 @@ body
     text-align: center;
 }
 
-h1{
+h1
+{
     font-family: Indie Flower;
     text-align: center;
     font-size: 50px;
@@ -38,6 +39,7 @@ link
     color: black;
     margin: 5px;
 }
+
 .links
 {
     border: 3px solid rgb(14, 14, 14);
