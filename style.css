@@ -3,19 +3,19 @@
 {
     font-family: Indie Flower;
 }
-
+/**/ Discord fidgetin muotoilu
 .dc
 {
     float: right;
     margin: 5px;
     margin-top: 75px
 }
-
+/**/ Logon koko
 .logo
 {
     height: 80px;
 }
-
+/**/ Taulukon muotoilu
 ul
 {
     list-style-type: none;
@@ -38,7 +38,7 @@ li a
     padding: 16px;
     text-decoration: none;
 }
-
+/**/ Määrittää "Top" -painikkeen värin yms.
 #myBtn 
 {
     display: none;
@@ -55,16 +55,17 @@ li a
     border-radius: 10px;
     font-size: 18px;
 }
-
+/**/ "Top" -painikkeen väri kun hiiri on sen päällä
 #myBtn:hover 
 {
     background-color: #555;
 }
-
+/**/ Kirjautumisruudun tekstin väri
 .login 
 {
     color: white;
 }
+
 section 
 {
     margin-left: 15px;
@@ -74,6 +75,7 @@ article
 {
     margin-left: 20px;
 }
+/**/ 
 @media screen and (max-width: 450px)
 {
     .dc, .twitter-timeline, .player
@@ -81,6 +83,7 @@ article
         display: none;
     }
 }
+/**/ Nollaa tyylin class="nostyle" elementteihin
 .nostyle {
     all: initial;
     all: none;

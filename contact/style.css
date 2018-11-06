@@ -7,6 +7,7 @@ body
     text-align: center;
 }
 
+
 h1
 {
     font-family: Indie Flower;
@@ -31,13 +32,6 @@ h1
 link
 {
     color: black;
-}
-
-.socialmedia
-{
-    text-decoration: none;
-    color: black;
-    margin: 5px;
 }
 
 .links
