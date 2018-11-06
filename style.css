@@ -67,11 +67,16 @@ li a
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 section {
 =======
 .twitter-timeline 
 {
     
+=======
+.twitter-timeline {
+    float: right;
+>>>>>>> 6b2d67aafc2ce81ab0da5932182c413d37389494
 }
 
 section 
