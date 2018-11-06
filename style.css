@@ -66,9 +66,8 @@ li a
     color: white;
 }
 
-.twitter-timeline 
-{
-    
+.twitter-timeline {
+    float: right;
 }
 
 section 
