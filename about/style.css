@@ -1,29 +1,44 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
-header,body,footer{
+
+header,body,footer
+{
     margin: 0px;
     padding: 0px;
     text-align: center;
     background-color: rgb(240, 240, 240)
-}body h1{
+}
+
+body h1
+{
     font-size: 40px;
-}body h2{
+}
+
+body h2
+{
     font-size: 30px;
 }
-.logoLink{
+
+.logoLink
+{
     position: fixed;
     top: 8px;
     left: 16px;
 }
-footer{
+
+foote
+{
 text-align: center;
 }
 
-.profilePic{
+.profilePic
+{
     height: 300px;
     border: 10px solid white;
     border-radius: 50%;
 }
-.hero{
+
+.hero
+{
     background-image: url("../Media/old-board.jpg");    
     background-attachment: fixed;
     background-position: center;
@@ -33,11 +48,15 @@ text-align: center;
     padding: 0px;
     margin: 0px;
 }
-.profileBackground{
+
+.profileBackground
+{
 background-color: white;
 border-radius: 50%;
 }
-li{
+
+li
+{
     padding: -20px;
     margin: -20px;
     margin-top: 60px;
@@ -45,17 +64,24 @@ li{
     display: inline-block;   
     padding: -20px;
 }
-@media screen and (max-width: 950px){
+
+@media screen and (max-width: 950px)
+{
     .profilePic{
         height: 200px;
     }
 }
-@media screen and (max-width: 650px){
+
+@media screen and (max-width: 650px)
+{
     .profilePic{
         height: 150px;
         border-width: 5px;
+    }
 }
-}@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px)
+{
     .profilePic{
         height: 75px;
         border-width: 5px;
