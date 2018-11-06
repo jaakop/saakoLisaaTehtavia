@@ -54,12 +54,16 @@ li a {
 .login {
     color: white;
 }
-.twitter-timeline {
-    
-}
 section {
     margin-left: 15px;
 }
 article {
     margin-left: 20px;
+}
+@media screen and (max-width: 450px)
+{
+    .dc, .twitter-timeline, .player
+    {
+        display: none;
+    }
 }
