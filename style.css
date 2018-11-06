@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower" );
+
+body, header, footer{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(204, 240, 240);
+}
+.bodySection{
+ margin: 50px;
+ box-shadow: 10px 10px 10px 10px black;
+}
+
+.dc{
+    position: relative;
+    margin: -30px auto 0 auto;
+    top: 50%;  
+}
+
 .helloworld
 {
     font-family: Indie Flower;

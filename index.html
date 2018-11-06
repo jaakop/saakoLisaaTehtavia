@@ -18,7 +18,6 @@
     <script rel="script" src="script.js"></script>
 </head>
 <body>
-    
     <ul>
         <!--Logo sivun vasemmassa yläkulmassa. (Vie etusivulle)-->
     <li><a href="index.html"><img class="logo" src="Media/logo.png" alt="logo.png"></a></li>
@@ -34,6 +33,7 @@
     </fieldset>
 </form>
     </ul>
+<section class="bodySection">
 <!--Navigaatio bar-->
 <nav>
     <a href="tehtavia/tehtavia.html">Tehtäviä</a>
@@ -48,11 +48,12 @@
     <!--Basic HTML muotoon vievä linkki-->
     <a href="../saakoLisaaTehtavia/Indexbasic/index.html" class="nostyle">Basic HTML</a>
 <!--Oikealla olevien objektien sisältävä laatikko-->
-    <aside style="float: right;">
+    <aside style="float: right; vertical-align: top;">
             <!--discord-->
-        <iframe class="dc" style="float: right;" src="https://discordapp.com/widget?id=481026807013965834" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-            <!--twitter-->
-        <br><a class="twitter-timeline" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw"data-width="350"data-height="800">Tweets by elonmusk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div style="float:right; margin-top: -75px;">
+        <iframe class="dc" src="https://discordapp.com/widget?id=481026807013965834" width="350" height="450" allowtransparency="true" frameborder="0" ></iframe>
+         </div>   <!--twitter-->
+        <a class="twitter-timeline" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw"data-width="350"data-height="450">Tweets by elonmusk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </aside>
 </nav>
 <!--Sivun artikkelit-->
@@ -72,6 +73,7 @@
         Your browser does not support the audio tag.
       </audio>
 </footer>
+</section>
 <!--"Top" nappi-->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
