@@ -54,3 +54,10 @@ li a {
 .login {
     color: white;
 }
+
+section {
+    margin-left: 15px;
+}
+article {
+    margin-left: 20px;
+}
