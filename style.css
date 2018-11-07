@@ -10,7 +10,16 @@ body, header, footer{
  margin-top: -10px;
  padding-top: 5px;
  box-shadow: 10px 10px 10px 10px black;
- height: 500px;;
+ height: 500px;
+ width: 900px
+}
+.sidebar {
+    margin: 50px;
+    margin-top: -10px;
+    padding-top: 5px;
+    box-shadow: 10px 10px 10px 10px black;
+    height: 960px;
+    width: 370px
 }
 
 .dc{
