@@ -36,7 +36,7 @@ body, header, footer{
 .dc
 {
     float: right;
-    margin: 5px;
+    margin: 5px; margin-top: -1px;
 }
 /** Logon koko **/
 .logo
