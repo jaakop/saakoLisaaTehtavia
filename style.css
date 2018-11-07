@@ -7,7 +7,7 @@ body, header, footer{
 }
 .bodySection{
  margin: 50px;
- margin-top: 0px;
+ margin-top: 5px;
  padding-top: 5px;
  margin-left: 60px;
  box-shadow: 10px 10px 10px 10px black;
@@ -16,7 +16,7 @@ body, header, footer{
 }
 .sidebar {
     margin: 50px;
-    margin-top: -10px;
+    margin-top: 5px;
     padding-top: 5px;
     box-shadow: 10px 10px 10px 10px black;
     height: 1200px;
@@ -115,3 +115,19 @@ article
     all: initial;
     all: none;
 }
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
