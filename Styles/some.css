@@ -1,0 +1,126 @@
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.btn:hover {
+    background-color: hotpink;
+}
+
+/* social media button colors*/
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google:hover {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin:hover {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram:hover {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest:hover {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost:hover {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype:hover {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android:hover {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble:hover {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo:hover {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr:hover {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine:hover {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare:hover {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon:hover {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr:hover {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo:hover {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud:hover {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit:hover {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss:hover {
+    background: #ff6600;
+    color: white;
+  }
+
+  .fa-steam-square:hover {
+      background-color: black;
+      color: white;
+  }
