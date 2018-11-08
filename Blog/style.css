@@ -2,7 +2,6 @@
 .dark-gey{background-color: darkgrey;}
 .black{background-color: black;}
 .whitet{color: #fff;}
-.background-img{background-image: url("../Media/lake.png");}
 
 /**Content rules**/
 .content,.auto{margin-left:auto;margin-right:auto}
@@ -84,3 +83,28 @@ button,input{overflow:visible}button,select{text-transform:none}
 /**Tag, badge**/
 .badge,.tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
 .badge{border-radius:50%;}
+
+/** Määrittää "Top" -painikkeen värin yms. **/
+#myBtn 
+{
+    display: none;
+    position: fixed;
+    bottom: 12px;
+    right: 13px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+/** "Top" -painikkeen väri kun hiiri on sen päällä **/
+#myBtn:hover 
+{
+    background-color: #555;
+}
+
+.logo {height:80px;list-style:none;top:20px;left:15px;float:left;}
