@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6,b{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;marg
 /**Koodi joka pitää koko sivun pystyssä**/
 .container:after,.container:before,.panel:after,.panel:before,.row:after,.row:before,.row-padding:after,.row-padding:before,
 .cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after{content:"";display:table;clear:both}
-.row-padding,.row-padding>
+.row-padding,.row-padding
 
 .col{padding:0 8px}
 .col{float:left;width:100%}
