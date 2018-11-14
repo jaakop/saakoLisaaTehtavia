@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6,b{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;marg
 @media (min-width:1300px){.col.l4{width:33.33333%}.col.l8{width:66.66666%}}
 
 .opacity,.hover-opacity:hover{opacity:0.60}
-.hoverable tbody tr:hover,.ul.hoverable li:hover{background-color:#ccc}
+.hoverable tbody tr:hover,.ul.hoverable li:hover{animation: oofbackground 5s infinite;}
 .centered tr th,.centered tr td{text-align:center}
 .card,.card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
 .card-4,.hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
@@ -104,24 +104,21 @@ button,input{overflow:visible}button,select{text-transform:none}
 }
 /** "Top" -painikkeen väri kun hiiri on sen päällä **/
 #myBtn:hover 
-{
-    background-color: #555;
-}
+{background-color: #555;}
 
 .logo2{height:55px;top:20px;left:25px;float:left;position:fixed;}
-.oof{animation: oof 5s infinite;}
-@keyframes oof
-{
-  0%
-  {
-    color: red;
-  }
 
-  20%{ color: blue; }
-  40%{ color: green;}
-  60%{ color: orange;}
-  100%
-  {
-    color: red;
-  }
-}
+.oof{animation: oof 5s infinite;}
+@keyframes oofbackground{
+  0%{background-color: white;}
+  20%{background-color:blue;}
+  40%{background-color:green;}
+  60%{background-color:orange;}
+  75%{background-color:red;}
+  100%{background-color:white}}
+@keyframes oof{
+  0%{color: red;}
+  20%{color:blue;}
+  40%{color:green;}
+  60%{color:orange;}
+  100%{color:red;}}
