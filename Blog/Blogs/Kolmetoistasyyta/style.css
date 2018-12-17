@@ -3,16 +3,28 @@ html{
     font-size: 20px;
 }
 header{
-    margin-top: 50px;  
+    margin: 0px; 
+    background-size: 200px;
+    height: 200px;
+    margin-bottom: -50px;
+    padding-top: 50px;
+    background-attachment: fixed;
     text-align: center;
     font-family: "Raleway", sans-serif;
-}
-h1{
+    background-image: url("cover.jpg");
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}body{
+    
+    margin: 0px;
+}h1{
     font-family:"Segoe UI",Arial,sans-serif;
     font-weight: 400;
     font-size: 36px;
     margin:10px 0;
     line-height:1.5;
+    color: white;
+    text-shadow: 2px 2px 8px black;
 }
 .container{
     margin-right: 100px;
