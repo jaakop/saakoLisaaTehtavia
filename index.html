@@ -26,11 +26,11 @@
         <!--Login laatikko-->
         <fieldset style="width: 100px; float: right; margin: 40px;" class="login">
             <legend>Kirjaudu</legend>
-                Sähköposti:<br>
-            <input type="email" name="Emailboi"><br>
-                Salasana:<br>
-            <input type="password"><br>
-            <input style="margin-top: 8px" type="submit" name="Submit"><br>
+            <form action="login.php" method="post">
+                <p>Username: <input type="text" name="username"></p>
+                <p>Password: <input type="password" name="password"></p>
+                <p><input type="submit" name="submit" value="Login"></p>
+            </form>
         </fieldset>
         </ul>
     </header>    
