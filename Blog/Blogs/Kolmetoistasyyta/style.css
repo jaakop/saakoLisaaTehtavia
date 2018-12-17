@@ -1,0 +1,40 @@
+html{
+    background-color: lightgray;
+    font-size: 20px;
+}
+header{
+    margin-top: 50px;  
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+h1{
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin:10px 0;
+    line-height:1.5;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 25px;
+    background-color: white;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}.title{
+    position: fixed;
+    left: 125px;
+}
+@media screen and (max-width: 1015px)
+{
+    .title{
+        position: initial;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 650px)
+{
+    .container{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
