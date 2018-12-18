@@ -38,6 +38,9 @@ header{
 }
 @media screen and (max-width: 1015px)
 {
+    header{
+        height: 250px;
+    }
     .title{
         position: initial;
         left: 0px;
@@ -48,5 +51,25 @@ header{
     .container{
         margin-right: 10px;
         margin-left: 10px;
+    }
+}
+@media screen and (max-width: 380px)
+{
+    
+    header{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 240px)
+{
+    h1, h2{
+        font-size: 150%;
+    }
+    header{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 300px;
     }
 }
