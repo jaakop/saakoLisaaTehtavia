@@ -5,10 +5,12 @@ html{
 header{
     margin: 0px; 
     background-size: 200px;
-    height: 200px;
+    height: 250px;
     margin-bottom: -50px;
     padding-top: 50px;
     background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 100%;
     text-align: center;
     font-family: "Raleway", sans-serif;
     background-image: url("cover.jpg");
@@ -36,6 +38,11 @@ header{
 }.title{
     position: absolute;
     left: 125px;
+}.pic{
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 @media screen and (max-width: 1015px)
 {
